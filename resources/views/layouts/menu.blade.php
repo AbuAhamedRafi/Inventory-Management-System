@@ -30,11 +30,11 @@
             </a>
         </li>
         @can('print_barcodes')
-           <li class="c-sidebar-nav-item">
+           {{-- <li class="c-sidebar-nav-item">
                <a class="c-sidebar-nav-link {{ request()->routeIs('barcode.print') ? 'c-active' : '' }}" href="{{ route('barcode.print') }}">
                    <i class="c-sidebar-nav-icon bi bi-printer" style="line-height: 1;"></i> Print Barcode
                </a>
-           </li>
+           </li> --}}
         @endcan
     </ul>
 </li>

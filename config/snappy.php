@@ -36,9 +36,9 @@ return [
     'pdf' => [
         'enabled' => true,
         // 'binary' => base_path('vendor\wemersonjanuario\wkhtmltopdf-windows\bin\64bit\wkhtmltopdf'),
-        // 'binary'  => env('WKHTML_PDF_BINARY', base_path('vendor/h4cc/wkhtmltopdf-amd64/bin/wkhtmltopdf-amd64'),),
-        // 'binary'  => env('WKHTML_PDF_BINARY', 'C:\\wkhtmltopdf\\bin\\wkhtmltopdf.exe'),
-        'binary' => 'C:\xampp\htdocs\triangle-pos\wkhtmltopdf',
+        'binary'  => env('WKHTML_PDF_BINARY', base_path('vendor/wemersonjanuario/wkhtmltopdf-windows/bin/64bit/wkhtmltopdf.exe'),),
+        'binary'  => env('WKHTML_PDF_BINARY', 'C:\xampp\htdocs\triangle-pos\vendor\h4cc\wkhtmltopdf-amd64\bin\wkhtmltopdf-amd64'),
+        // 'binary' => 'C:\xampp\htdocs\triangle-pos\wkhtmltopdf',
         'timeout' => false,
         'options' => [
             'enable-local-file-access' => true,
@@ -51,6 +51,8 @@ return [
         'enabled' => true,
         // 'binary'  => env('WKHTML_IMG_BINARY', ''),
         'binary'  => env('WKHTML_PDF_BINARY', base_path('vendor/wemersonjanuario/wkhtmltopdf-windows/bin/64bit/wkhtmltoimage.exe'),),
+        'binary'  => env('WKHTML_IMG_BINARY', 'C:\xampp\htdocs\triangle-pos\vendor\h4cc\wkhtmltopdf-amd64\bin\wkhtmltoimage-amd64'),
+        // 'binary' => 'C:\xampp\htdocs\triangle-pos\wkhtmltoimage',
         'timeout' => false,
         'options' => [
             'enable-local-file-access' => true

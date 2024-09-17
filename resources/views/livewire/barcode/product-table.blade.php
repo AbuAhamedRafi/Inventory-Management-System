@@ -57,10 +57,10 @@
 
     @if(!empty($barcodes))
         <div class="text-right mb-3">
-            <button wire:click="getPdf" wire:loading.attr="disabled" type="button" class="btn btn-primary">
+            {{-- <button wire:click="getPdf" wire:loading.attr="disabled" type="button" class="btn btn-primary">
                 <span wire:loading wire:target="getPdf" class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
                 <i wire:loading.remove wire:target="getPdf" class="bi bi-file-earmark-pdf"></i> Download PDF
-            </button>
+            </button> --}}
         </div>
         <div class="card">
             <div class="card-body">

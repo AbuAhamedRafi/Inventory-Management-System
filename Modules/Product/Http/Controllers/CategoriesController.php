@@ -21,7 +21,7 @@ class CategoriesController extends Controller
 
     public function store(Request $request) {
         abort_if(Gate::denies('access_product_categories'), 403);
-
+        
         $request->validate([
             'category_code' => 'required|unique:categories,category_code',
             'category_name' => 'required'

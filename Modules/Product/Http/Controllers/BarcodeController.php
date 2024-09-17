@@ -4,6 +4,7 @@ namespace Modules\Product\Http\Controllers;
 
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\Gate;
+use App;
 
 class BarcodeController extends Controller
 {
