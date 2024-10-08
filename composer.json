@@ -28,12 +28,14 @@
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.6",
-        "spatie/laravel-ignition": "^2.0",
+        "brianium/paratest": "^7.2",
         "fakerphp/faker": "^1.9.1",
+        "laravel/dusk": "^8.2",
         "laravel/sail": "^1.0.1",
         "mockery/mockery": "^1.4.2",
         "nunomaduro/collision": "^7.0",
-        "phpunit/phpunit": "^10.0"
+        "phpunit/phpunit": "^10.5",
+        "spatie/laravel-ignition": "^2.0"
     },
     "autoload": {
         "psr-4": {

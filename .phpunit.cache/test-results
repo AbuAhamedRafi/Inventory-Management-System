@@ -1,0 +1,1 @@
+{"version":1,"defects":{"Tests\\Browser\\ExampleTest::test_user_can_login":8,"Tests\\Browser\\LoginTest::test_user_can_login":8},"times":{"Tests\\Browser\\ExampleTest::testBasicExample":1.407,"Tests\\Browser\\LoginTest::testExample":0.604,"Tests\\Browser\\ExampleTest::test_user_can_login":6.578,"Tests\\Browser\\LoginTest::test_user_can_login":6.323}}
